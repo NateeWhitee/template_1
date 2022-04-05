@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="gallery_view">
+        <div id="current_image"></div>
+        <button id="back_button" onclick="back()">&#8612;</button>
+        <button id="forward_button" onclick="forward()">&#8614;</button>
+        <button id="exit_gallery_button" onclick="exit_gallery()">&#10005;</button>
+    </div>
+    <header>
+        <h1 id="page_title">PAGE TITLE</h1>
+    </header>
+    <div id="social_media_bar">
+        <ul>
+            <li><img src="placeholder_image.png"></li>
+            <li><a href="***">Instagram</a></li>
+            <li><a href="***">Facebook</a></li>
+            <li><a href="***">Twitter</a></li>
+            <li><a href="***">Discord</a></li>
+        </ul>
+    </div>
+    <main>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, nibh in accumsan sagittis, lectus leo hendrerit nisl, sit amet rhoncus lacus augue vehicula erat. Phasellus ultrices sagittis neque, vel placerat est egestas vel. Praesent posuere dolor id molestie iaculis. Maecenas blandit sagittis pulvinar. Aenean porta purus mauris, vitae luctus erat aliquam at. Suspendisse lacinia fringilla odio nec aliquet. Curabitur eget facilisis mauris, non suscipit lorem.</p>
+        </article>
+        <article>
+            <p>Sed aliquam posuere dignissim. Nam faucibus gravida porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum magna ligula, volutpat eget laoreet vitae, hendrerit non nisl. Curabitur sit amet dolor eget nisi mollis condimentum at et tellus. Fusce finibus lorem sed dui tristique vulputate. Etiam consectetur, nunc non fringilla tempus, sapien ipsum varius ipsum, ac malesuada dolor odio vel risus. Vestibulum non molestie diam. Sed mi augue, commodo id fringilla in, finibus ac nibh.</p>
+        </article>
+        <article>
+            <p>Proin ac ante tristique nulla condimentum ornare nec ac lorem. Morbi lectus mi, dictum sed fringilla non, tempor sit amet magna. Nullam in purus id urna aliquet dapibus a non ex. Fusce eu arcu luctus, dictum turpis in, suscipit lorem. Donec tincidunt scelerisque cursus. Donec sapien lectus, eleifend vel scelerisque ac, tempor sed eros. Mauris porttitor dignissim nulla ut ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi mollis gravida est, quis vestibulum nunc consequat vitae. Fusce pulvinar interdum orci sed rhoncus. Nunc quis pellentesque nisl, non finibus mauris. Nam sed libero non sapien blandit scelerisque. Nam faucibus turpis et nunc placerat, ut pretium urna aliquam. Vestibulum imperdiet vehicula eros condimentum interdum. Proin lobortis neque a elit ullamcorper rutrum. Donec rhoncus nibh ac leo consectetur, non luctus felis lacinia.</p>
+        </article>
+        <article>
+            <p>Sed luctus orci non turpis aliquet consectetur. Duis accumsan, augue a porta tempor, erat dolor viverra erat, et fermentum ante erat eget dolor. Suspendisse volutpat id lectus ut eleifend. Nullam in placerat eros, a mollis nibh. Quisque rhoncus augue vitae ligula pellentesque, sed ultricies ipsum venenatis. In lectus sem, maximus laoreet consectetur sed, lobortis quis tellus. Quisque neque elit, euismod vitae velit et, interdum vehicula ex.</p>
+        </article>
+        <article>
+            <p>Etiam dictum maximus massa ac elementum. Aliquam sit amet fermentum risus. Aenean vehicula, erat nec aliquet auctor, est arcu ornare ligula, sed finibus tellus diam vitae ex. Sed congue libero non eros viverra eleifend. Integer mollis sollicitudin ipsum, facilisis vulputate velit porttitor eu. Aenean sed urna sollicitudin, iaculis lectus a, interdum lectus. Mauris non mi ornare, ultrices justo vel, venenatis odio.</p>
+        </article>
+    </main>
+
+    <div id="gallery">
+        <img onclick="view_gallery(0)" id="Image_1" src="placeholder_image.png">
+        <img onclick="view_gallery(1)" id="Image_2" src="placeholder_image_2.png">
+        <img onclick="view_gallery(2)" id="Image_3" src="placeholder_image_3.png">
+        <img onclick="view_gallery(3)" id="Image_4" src="placeholder_image.png">
+        <img onclick="view_gallery(4)" id="Image_5" src="placeholder_image_2.png">
+        <img onclick="view_gallery(5)" id="Image_6" src="placeholder_image_3.png">
+        <img onclick="view_gallery(6)" id="Image_7" src="placeholder_image.png">
+        <img onclick="view_gallery(7)" id="Image_8" src="placeholder_image_2.png">
+        <img onclick="view_gallery(8)" id="Image_9" src="placeholder_image_3.png">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
